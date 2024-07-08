@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>jQuery - Latihan 1</title>
+          <style>
+                    body{
+                              margin: 3%;
+                    }
+          </style>
+</head>
+<body>
+          <h3>Halo <span id="teks"> jQuery </span> </h3>
+          <p>The write loss, Do more, JavaScript Library</p>
+
+          <button> Ubah Text </button>
+
+          <script src="js/jquery-3.7.1.js"></script>
+          <script>
+                    $(Document).ready(function(){
+                    
+                    $('button').click(function(){
+                    $('#teks').text('Kalian')
+                    })
+                    
+                    })
+          </script>
+</body>
+</html>
